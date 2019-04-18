@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Vivek Agrawal</title>
-    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900"
+      rel="stylesheet"
+    />
+    <link href="../styles/style.css" rel="stylesheet" />
   </head>
   <body>
     <nav>
-      <a href="../index.html">home</a>
-      <a href="about.html">about </a>
-      <a href="projects.html">projects</a>
-      <a href="contact.html">contact</a>
+      <a href="../index.html">Home</a>
+      <a href="about.html">About </a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+      <footer>
+        <p>&copy; Vivek Agrawal</p>
+      </footer>
     </nav>
     <main>
       <p>
@@ -18,15 +28,22 @@
         am just starting out. But trust me, this page soon will be full of
         <strong>useful</strong> projects.
       </p>
-      <div>
-        <p><strong>School Management System</strong></p>
-        <p>built with C++</p>
-        <img
-          src="../assets/school-management-system.png"
-          alt="school management system homescreen screenshot"
-          width="40%"
-          style="border: 1px solid;"
-        />
+      <div class="project">
+        <p>
+          <strong
+            >School Management System:
+            <a href="https://github.com/vkWeb/school-management-system"
+              >https://github.com/vkWeb/school-management-system</a
+            >
+          </strong>
+        </p>
+        <figure>
+          <figcaption>built with C++</figcaption>
+          <img
+            src="../assets/school-management-system.png"
+            alt="school management system homescreen screenshot"
+          />
+        </figure>
         <p>
           This is the final project I built for my board examination. My aim was
           to help my school staffs in managing their daily chores.
@@ -37,33 +54,32 @@
           <li>learned about file handling in C++</li>
         </ul>
       </div>
-
-      <div>
+      <div class="project">
         <p>
           <strong>
-            A simple letter markup (my one of the first HTML document)
+            A simple letter markup (my one of the first HTML document):
+            <a href="https://github.com/vkWeb/letter-markup"
+              >https://github.com/vkWeb/letter-markup</a
+            >
           </strong>
         </p>
-        <p>built with HTML & CSS</p>
         <p>
           I created this as an assignment for MDN learning area. This is one of
           the first HTML document I coded.
         </p>
-        <img
-          src="../assets/letter-markup.png"
-          alt="letter markup project screenshot"
-          width="30%"
-          style="border: 1px solid;"
-        />
+        <figure>
+          <figcaption>built with HTML & CSS</figcaption>
+          <img
+            src="../assets/letter-markup.png"
+            alt="letter markup project screenshot"
+          />
+        </figure>
         <ul>
           <li>learned basic HTML tags</li>
           <li>learned about HTML5 semantic tags</li>
         </ul>
       </div>
+      <p>... a lot more to come very soon</p>
     </main>
-
-    <footer>
-      <p>&copy; Vivek Agrawal</p>
-    </footer>
   </body>
 </html>

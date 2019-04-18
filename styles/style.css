@@ -1,0 +1,72 @@
+/* Home page CSS */
+body {
+  font-family: "Roboto", sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 56px;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero img {
+  margin-top: 4%;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #4d4d4d;
+  width: 15%;
+}
+
+nav a,
+footer {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  margin: 32px 0 0 0;
+  font-size: 32px;
+}
+
+.social {
+  text-align: center;
+}
+
+.social img {
+  width: 52px;
+  margin: 0 62px 0 62px;
+}
+
+main {
+  margin-left: 20%;
+}
+
+footer {
+  font-size: 18px;
+  margin: 150% 0 0 0;
+}
+
+/* Projects section CSS */
+.project {
+  border: 1px solid;
+  margin: 5%;
+  padding: 2%;
+}
+
+.project figure img {
+  width: 50%;
+  border: 1px solid;
+}
