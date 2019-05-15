@@ -1,8 +1,6 @@
 /* Home page CSS */
 body {
-  font-family: "Roboto", sans-serif;
-  width: 80%;
-  margin: auto;
+  font-family: sans-serif;
 }
 
 h1 {
@@ -14,12 +12,12 @@ h2 {
   font-weight: 400;
 }
 
-.hero {
-  text-align: center;
+p {
+  font-size: 18px;
 }
 
-.hero img {
-  margin-top: 4%;
+.hero {
+  text-align: center;
 }
 
 nav {
@@ -28,11 +26,10 @@ nav {
   left: 0;
   height: 100%;
   background-color: #4d4d4d;
-  width: 15%;
+  width: 14%;
 }
 
-nav a,
-footer {
+nav a {
   display: block;
   color: #ffffff;
   text-align: center;
@@ -52,11 +49,7 @@ footer {
 
 main {
   margin-left: 20%;
-}
-
-footer {
-  font-size: 18px;
-  margin: 150% 0 0 0;
+  width: 75%;
 }
 
 /* Projects section CSS */
