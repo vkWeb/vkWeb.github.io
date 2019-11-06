@@ -9,15 +9,24 @@
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900"
       rel="stylesheet"
     />
+    <link href="../styles/modified_style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
     <link href="../styles/style.css" rel="stylesheet" />
   </head>
   <body>
-    <nav>
-      <a href="../index.html">Home</a>
-      <a href="about.html">About </a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+      <nav class="home_background"> 
+          <div id="mySidebar" class="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+          <a align ="center" href="../index.html">Home</a>
+          <a align ="center" href="about.html">About</a>
+          <a align ="center" href="projects.html">Projects</a>
+          <a align ="center" href="contact.html">Contact</a>
+          </nav>
+  
+        <div id="main">
+          <button style="margin-left: 1%;"id="button" class="openbtn" onclick="openNav()">☰</button>
+        </div>
+      </div>
     <main>
       <P>
         I love learning about computers. You will often find me contributing to
@@ -39,5 +48,6 @@
         <li>... and anything which I find interesting</li>
       </ul>
     </main>
+    <script src="../scripts/scripts.js"></script>
   </body>
 </html>

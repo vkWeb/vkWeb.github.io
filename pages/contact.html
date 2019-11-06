@@ -6,14 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Vivek Agrawal</title>
     <link href="../styles/style.css" rel="stylesheet" />
+    <link href="../styles/modified_style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
   </head>
   <body>
-    <nav>
-      <a href="../index.html">Home</a>
-      <a href="about.html">About </a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+      <nav class="home_background"> 
+          <div id="mySidebar" class="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+          <a align ="center" href="../index.html">Home</a>
+          <a align ="center" href="about.html">About</a>
+          <a align ="center" href="projects.html">Projects</a>
+          <a align ="center" href="contact.html">Contact</a>
+          </nav>
+  
+        <div id="main">
+          <button style="margin-left: 1%;"id="button" class="openbtn" onclick="openNav()">☰</button>
+        </div>
+      </div>
     <main>
       <p>
         If you are here then there's high probability that you want to talk to
@@ -36,5 +45,6 @@
         <input type="submit" />
       </form>
     </main>
+    <script src="../scripts/scripts.js"></script>
   </body>
 </html>
