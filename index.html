@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Agrawal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img class="photo" src="vk-nice.png" alt="Vivek Agrawal">
+
+        <div class="introduction">
+            <h1 class="name">
+                Vivek Agrawal
+            </h1>
+            <h2 class="tagline">
+                Independent software maker
+            </h2>
+            <div class="social">
+                <a href="https://twitter.com/vkwebdev" target="_blank">
+                    <img src="logo-black.png" alt="Twitter Logo">
+                </a>
+            </div>
+        </div>
+
+        <img src="./layered-waves-haikei.svg" alt="" srcset="">
+    </header>
+
+    <main>
+        <p>
+            I build software on the Web. My soul loves designing and building useful things for humans.
+        </p>
+
+
+        <h2 class="heading-with-time">
+            <span>My Maker Journey</span>
+            <span class="time">March 2024 — Present</span>
+        </h2>
+
+
+        <p>
+            I have tried making my own things. So far my attemps at making a business has failed. But I will continue
+            building and I believe some day things will work out fine ;)
+        </p>
+
+        <div class="card">
+            <svg class="stamp-failed" viewBox="0 0 260 260" width="80" height="80" aria-hidden="true">
+                <defs>
+                    <!-- noise for grunge -->
+                    <filter id="grain" x="-50%" y="-50%" width="200%" height="200%">
+                        <!-- create turbulence noise -->
+                        <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="2" result="noise" />
+                        <!-- threshold to make speckles -->
+                        <feColorMatrix in="noise" type="saturate" values="0" result="mono" />
+                        <!-- displace original graphic by noise to roughen edge -->
+                        <feDisplacementMap in="SourceGraphic" in2="mono" scale="6" xChannelSelector="R"
+                            yChannelSelector="G" />
+                    </filter>
+                </defs>
+
+                <!-- background circle + worn border -->
+                <g filter="url(#grain)">
+                    <circle cx="130" cy="130" r="110" fill="none" stroke="#8B0000" stroke-width="10" />
+                </g>
+
+                <!-- inner dashed ring (slightly offset, also grunged) -->
+                <g filter="url(#grain)" transform="translate(0,2)">
+                    <circle cx="130" cy="130" r="84" fill="none" stroke="#8B0000" stroke-width="4"
+                        stroke-dasharray="6 8" stroke-linecap="round" />
+                </g>
+
+                <!-- center bold FAILED with some ink noise -->
+                <text x="130" y="145" text-anchor="middle" font-weight="900" font-family="Impact, system-ui, Arial"
+                    font-size="38" fill="#8B0000" style="letter-spacing:2px">
+                    FAILED
+                </text>
+            </svg>
+
+
+            <img width="36px" src="ListenUser Logo (L - only).svg" alt="ListenUser Logo">
+
+            <div class="text">
+                <div class="head heading-with-time">
+                    <span>
+                        <a href="https://listenuser.com" target="_blank">
+                            ListenUser
+                        </a>
+                    </span>
+                    <span class="time card-head">
+                        January 2025 — August 2025
+                    </span>
+                </div>
+
+                <div class="description">
+                    <p>I made ListenUser, a customer support platform like Intercom or Crisp but tried to cater towards
+                        software businesses.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="cryptography-course-logo.png" alt="Cryptography for Web Developers Logo">
+
+            <div class="text">
+
+                <div class="head heading-with-time">
+                    <span>
+                        <a href="https://cryptography-for-devs.github.io" target="_blank">
+                            Cryptography for Web Developers
+                        </a>
+                    </span>
+                    <span class="time card-head">
+                        October 2024 — January 2025
+                    </span>
+                </div>
+
+                <div class="description">
+                    <p>
+                        I made a 100% free course to explain the intuitions behind the cryptographic techniques that
+                        come into daily lives of web developers.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <svg class="stamp-failed" viewBox="0 0 260 260" width="80" height="80" aria-hidden="true">
+                <defs>
+                    <!-- noise for grunge -->
+                    <filter id="grain" x="-50%" y="-50%" width="200%" height="200%">
+                        <!-- create turbulence noise -->
+                        <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="2" result="noise" />
+                        <!-- threshold to make speckles -->
+                        <feColorMatrix in="noise" type="saturate" values="0" result="mono" />
+                        <!-- displace original graphic by noise to roughen edge -->
+                        <feDisplacementMap in="SourceGraphic" in2="mono" scale="6" xChannelSelector="R"
+                            yChannelSelector="G" />
+                    </filter>
+                </defs>
+
+                <!-- background circle + worn border -->
+                <g filter="url(#grain)">
+                    <circle cx="130" cy="130" r="110" fill="none" stroke="#8B0000" stroke-width="10" />
+                </g>
+
+                <!-- inner dashed ring (slightly offset, also grunged) -->
+                <g filter="url(#grain)" transform="translate(0,2)">
+                    <circle cx="130" cy="130" r="84" fill="none" stroke="#8B0000" stroke-width="4"
+                        stroke-dasharray="6 8" stroke-linecap="round" />
+                </g>
+
+                <!-- center bold FAILED with some ink noise -->
+                <text x="130" y="145" text-anchor="middle" font-weight="900" font-family="Impact, system-ui, Arial"
+                    font-size="38" fill="#8B0000" style="letter-spacing:2px">
+                    FAILED
+                </text>
+            </svg>
+
+            <img src="QA Rangers Logo.svg" alt="QA Rangers Logo">
+
+            <div class="text">
+
+
+                <div class="head heading-with-time">
+                    <span>
+                        QA Rangers
+                    </span>
+                    <span class="time card-head">
+                        March 2024 — October 2024
+                    </span>
+                </div>
+
+                <div class="description">
+                    <p>
+                        I started QA Rangers with the vision to build an AI agent that would help with development and
+                        maintenance of
+                        end-to-end automation tests.
+                    </p>
+
+                    <p>I have written in detail about my QA Rangers journey <a
+                            href="https://medium.com/@vkweb/started-with-an-ai-agent-now-doing-a-thing-that-wont-scale-my-startup-journey-so-far-49a053f01f8c"
+                            target="_blank">here on this article.</a></p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="heading-with-time">
+            <span>
+                Open Source and Contract Work
+            </span>
+            <span class="time">
+                November 2017 — March 2024
+            </span>
+        </h2>
+
+        <p>
+            I remember when I first contributed to open source, when I saw my code deployed live, I was left awestruck.
+            Over the years, I continued contributing and found my first paid work via Google Summer of Code.
+        </p>
+
+        <div class="card">
+            <img src="le-logo.png" alt="Learning Equality Logo">
+
+            <div class="text">
+
+                <div class="head heading-with-time">
+                    <span>
+                        Learning Equality
+                    </span>
+                    <span class="time card-head">
+                        June 2021 — March 2024
+                    </span>
+                </div>
+
+                <div class="description">
+                    <p>
+                        I started at Learning Equality as a Google Summer of Code (GSoC) Student Developer. After GSoC,
+                        I worked as a part-time developer on contract basis.
+                    </p>
+
+                    <p>
+                        You can explore <a
+                            href="https://github.com/search?q=is%3Apr+author%3Avkweb+org%3Alearningequality&type=pullrequests&p=1"
+                            target="_blank">all the pull requests I made to Learning Equality.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="mdn-web-docs-logo.png" alt="MDN Web Docs Logo">
+
+            <div class="text">
+
+                <div class="head heading-with-time">
+                    <span>
+                        MDN Web Docs
+                    </span>
+                    <span class="time card-head">
+                        Dec 2020 — January 2021
+                    </span>
+                </div>
+
+                <div class="description">
+                    <p>
+                        I worked as an open source contributor. I reviewed dozens of small pull requests to help the MDN
+                        Web Docs team.
+                    </p>
+                    <p>You can see <a href="https://github.com/vkWeb?from=2020-12-01&to=2020-12-31&org=mdn&year_list=1"
+                            target="_blank">some contributions here</a>.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="fcc_primary_small.png" alt="freeCodeCamp Logo">
+
+            <div class="text">
+                <div class="head heading-with-time">
+                    <span>
+                        freeCodeCamp
+                    </span>
+                    <span class="time card-head">
+                        Nov 2017 — Aug 2020
+                    </span>
+                </div>
+
+                <div class="description">
+                    <p>
+                        Even before I learned to code properly, I started contributing to freeCodeCamp as an open source
+                        contributor.
+                    </p>
+
+                    <p>
+                        I helped the freeCodeCamp team with manual testing their beta application, contributed to the
+                        curriculum and improved their web app a little bit with my small CSS pull requests.
+                    </p>
+
+                    <p>I became one of the <a href="https://www.freecodecamp.org/news/fcc100-top-contributors-2019/"
+                            target="_blank">top contributors in the year 2019!</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Thanks for visiting :D</p>
+    </footer>
+</body>
+
+</html>
