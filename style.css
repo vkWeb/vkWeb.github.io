@@ -251,6 +251,18 @@ header > div.introduction > div.socials {
   }
 }
 
+li {
+  list-style: none;
+  margin-bottom: 0.1em;
+  font-weight: 500;
+
+  &::marker {
+    content: "→";
+    color: #EC9455;
+    font-size: 1.8em;
+  }
+}
+
 .content-area > footer {
   margin: 4rem 0;
   font-size: 0.8rem;
