@@ -252,14 +252,11 @@ header > div.introduction > div.socials {
 }
 
 li {
-  list-style: none;
-  margin-bottom: 0.1em;
+  margin-bottom: 1rem;
   font-weight: 500;
-
+  
   &::marker {
-    content: "→";
-    color: #EC9455;
-    font-size: 1.8em;
+    color: #ec9455;
   }
 }
 
