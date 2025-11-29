@@ -142,8 +142,9 @@ header {
   }
 }
 
-header > div.introduction > div.socials {
+div.dock {
   display: flex;
+  align-items: center;
   max-width: fit-content;
   gap: 0.6rem;
 
@@ -155,6 +156,12 @@ header > div.introduction > div.socials {
   color: #0090ff;
   font-weight: 500;
   font-size: 0.9rem;
+
+  & svg {
+    width: 1.3em;
+    height: auto;
+    stroke-width: 1.8;
+  }
 
   > a {
     text-decoration: none;
@@ -254,7 +261,7 @@ header > div.introduction > div.socials {
 li {
   margin-bottom: 1rem;
   font-weight: 500;
-  
+
   &::marker {
     color: #ec9455;
   }
